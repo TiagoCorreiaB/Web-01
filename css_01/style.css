@@ -2,7 +2,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #add6d6;
     margin: 20px;
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
 h1 {
     color: #3333cc;
 }
@@ -21,4 +26,22 @@ p {
     color: #ff0000;
     font-style: italic;
     border-radius: 4px;
+}
+.caixa1 {
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+.caixa2 {
+    border: 2px dashed #0000ff;
+    padding: 15px;
+    margin: 15px;
+    background-color: #e0e0ff;
+}
+.caixa3 {
+    border: 2px dotted #00cc00;
+    padding: 20px;
+    margin: 20px;
+    background-color: #e0ffe0;
 }
