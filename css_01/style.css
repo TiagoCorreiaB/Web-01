@@ -1,0 +1,24 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #add6d6;
+    margin: 20px;
+}
+h1 {
+    color: #3333cc;
+}
+p {
+    color: #cc3333;
+    font-weight: bold;
+    line-height: 1.5;
+}
+#subtitulo {
+    font-size: 18px;
+    color: #666666;
+    background-color: bisque;
+}
+.aviso {
+    font-size: 14px;
+    color: #ff0000;
+    font-style: italic;
+    border-radius: 4px;
+}
