@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+}
+
+header {
+  background-image: url("https://image.tmdb.org/t/p/original/t3hV5zA3oDC1EZXo8C34lmqYp2U.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 30px;
+}
+
+h1 {
+  color: rgb(229, 9, 20);
+  text-shadow: 2px 2px 5px black;
+}
+
+h2 {
+  font-style: italic;
+  color: #ddd;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav a:hover {
+  color: rgb(229, 9, 20);
+}
+
+section {
+  margin: 30px;
+}
+
+.card {
+  display: flex;
+  background-color: #222;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+.card img {
+  width: 200px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+ul {
+  list-style-type: square;
+}
+
+.filmes {
+  display: inline-block;
+}
+
+.filme {
+  display: inline-block;
+  background-color: #222;
+  border-radius: 8px;
+  border: 1px solid #333;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.filme img {
+  width: 150px;
+  border-radius: 6px;
+}
+
+.filme a {
+  color: rgb(229, 9, 20);
+  text-decoration: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(229, 9, 20);
+}
+
+tr:nth-child(even) {
+  background-color: #222;
+}
+
+#sobre img {
+  float: right;
+  width: 120px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+a:hover {
+  color: rgb(229, 9, 20);
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 15px;
+  color: #aaa;
+}
